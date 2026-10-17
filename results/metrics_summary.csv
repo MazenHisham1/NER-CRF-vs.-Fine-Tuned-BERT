@@ -1,0 +1,3 @@
+method,scope,n_sentences,precision,recall,f1
+CRF,full_test,3453,0.8219,0.776,0.7983
+Transformer,full_test,3453,0.9022,0.9175,0.9098

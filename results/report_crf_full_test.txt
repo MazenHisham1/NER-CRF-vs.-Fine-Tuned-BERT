@@ -1,0 +1,12 @@
+CRF | full_test | 3453 sentences
+
+              precision    recall  f1-score   support
+
+         LOC      0.866     0.813     0.839      1668
+        MISC      0.802     0.756     0.779       702
+         ORG      0.773     0.673     0.719      1661
+         PER      0.831     0.852     0.841      1617
+
+   micro avg      0.822     0.776     0.798      5648
+   macro avg      0.818     0.774     0.795      5648
+weighted avg      0.821     0.776     0.797      5648

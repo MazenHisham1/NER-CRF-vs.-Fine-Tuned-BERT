@@ -1,0 +1,12 @@
+Transformer | full_test | 3453 sentences
+
+              precision    recall  f1-score   support
+
+         LOC      0.934     0.935     0.935      1668
+        MISC      0.760     0.826     0.792       702
+         ORG      0.880     0.903     0.891      1661
+         PER      0.960     0.954     0.957      1617
+
+   micro avg      0.902     0.917     0.910      5648
+   macro avg      0.884     0.905     0.894      5648
+weighted avg      0.904     0.917     0.911      5648
