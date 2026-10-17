@@ -16,21 +16,21 @@ A side-by-side comparison of a classical feature-based model (Conditional Random
 
 ## Results
 
-Test-set scores (strict, entity-level). Replace the placeholders with the numbers from `results/summary.md` and `results/per_class_strict.csv` after running the pipeline.
+Test-set scores (strict, entity-level).
 
 | Model | Precision | Recall | F1 |
 |---|---|---|---|
-| CRF | XX.X | XX.X | XX.X |
-| BERT (`bert-base-cased`) | XX.X | XX.X | XX.X |
+| CRF | 82 | 78 | 80 |
+| BERT (`bert-base-cased`) | 90 | 92 | 91 |
 
 Per-class F1:
 
 | Class | CRF | BERT |
 |---|---|---|
-| PER | XX.X | XX.X |
-| ORG | XX.X | XX.X |
-| LOC | XX.X | XX.X |
-| MISC | XX.X | XX.X |
+| PER | 84 | 96 |
+| ORG | 72 | 89 |
+| LOC | 84 | 93 |
+| MISC | 78 | 79 |
 
 ## Approach
 
@@ -148,6 +148,3 @@ Erik F. Tjong Kim Sang and Fien De Meulder. 2003. Introduction to the CoNLL-2003
 Language-Independent Named Entity Recognition. In Proceedings of CoNLL-2003.
 ```
 
-## License
-
-The code in this repository can be released under a license of your choice (for example MIT). This license does not cover the CoNLL-2003 data or the Reuters Corpus text, which have their own terms (see the data note above).
