@@ -1,0 +1,52 @@
+{
+  "add_cross_attention": false,
+  "architectures": [
+    "BertForTokenClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": null,
+  "classifier_dropout": null,
+  "dtype": "float32",
+  "eos_token_id": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "O",
+    "1": "B-PER",
+    "2": "I-PER",
+    "3": "B-ORG",
+    "4": "I-ORG",
+    "5": "B-LOC",
+    "6": "I-LOC",
+    "7": "B-MISC",
+    "8": "I-MISC"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "is_decoder": false,
+  "label2id": {
+    "B-LOC": 5,
+    "B-MISC": 7,
+    "B-ORG": 3,
+    "B-PER": 1,
+    "I-LOC": 6,
+    "I-MISC": 8,
+    "I-ORG": 4,
+    "I-PER": 2,
+    "O": 0
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "tie_word_embeddings": true,
+  "transformers_version": "5.18.0",
+  "type_vocab_size": 2,
+  "use_cache": false,
+  "vocab_size": 28996
+}
